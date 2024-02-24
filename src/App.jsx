@@ -1,4 +1,3 @@
-import { Button } from "@material-tailwind/react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import HomePage from "./pages/HomePage";
 import NoPage from "./pages/NoPage";
