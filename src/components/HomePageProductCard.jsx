@@ -99,10 +99,13 @@ const HomePageProductCard = () => {
             {productData.map((item, index) => {
               const { image, title, price } = item;
               return (
-                <div key={index} className="p-4 w-full md:w-1/4">
+                <div
+                  key={index}
+                  className="p-4 w-full sm:w-1/2 md:w-1/3 lg:w-1/4"
+                >
                   <div className="h-full border border-gray-300 rounded-xl overflow-hidden shadow-md cursor-pointer">
                     <img
-                      className="lg:h-80  h-96 w-full"
+                      className="lg:h-80 h-96 w-full"
                       src={image}
                       alt="blog"
                     />
